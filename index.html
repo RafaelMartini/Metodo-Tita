@@ -28,478 +28,47 @@
 
 
     <!-- Font Awasome Icons -->
-    <link rel="stylesheet" href="assets/all.css">
+    <link rel="stylesheet" href="css/all.css">
     <!-- Bootstrap css online -->
-    <link rel="stylesheet" href="../stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
     <!-- jQuery online -->
-    <script src="assets/jquery.js"></script>
+    <script src="js/jquery.js"></script>
     <!-- Bootstrap js online -->
-    <script src="../code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
 
     <!-- Global stylesheets -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
-    <link href="assets/fontawesome-all.min.css" rel="stylesheet" type="text/css">
-    <!-- /global stylesheets -->
-
-    <script src='../kit.fontawesome.com/a076d05399.js'></script>
+    
+    <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
+    <script src='js/fontsawesome.js'></script>
 
     <!-- Local Css -->
-    <style>
-        body {
-            font-family: Poppins, Helvetica, sans-serif !important;
-            line-height: 1.8;
-            color: #818181;
-        }
-
-        h4 {
-            margin: 0;
-            margin-bottom: 5px;
-        }
-
-        h2 {
-            font-size: 50px;
-            text-transform: uppercase;
-            color: #000;
-            font-weight: 600;
-            margin-top: 0px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        .container-fluid {
-            padding-top: 20px;
-            padding-bottom: 20px;
-            padding-right: 20px;
-            padding-left: 20px;
-        }
-
-        .blue-dark {
-            background-color: #000;
-        }
-
-        .price p,
-        .price h1,
-        .price h3,
-        .price h4,
-        .price h5 {
-            color: #18232e;
-        }
-
-        .jumbotron {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin: 0;
-            padding-bottom: 30px;
-        }
-
-        p {
-            line-height: normal;
-        }
-
-        .container-video {
-            /*background-color: #242824;*/
-            height: 380px;
-        }
-
-        .singIn {
-            font-size: 28px;
-            text-decoration: none;
-            color: white;
-            text-align: center;
-            width: 100%;
-            border-radius: 21px;
-            margin-bottom: 20px;
-            padding: 10px 20px;
-            background-color: #242824;
-            cursor: pointer;
-        }
-
-        .singIn:hover {
-            text-decoration: none;
-            color: white;
-            box-sizing: border-box;
-            box-shadow: 0px 0px 10px #000 inset;
-        }
-
-        .singInText {
-            text-align: center;
-            font-size: 28px;
-            text-decoration: none;
-            line-height: 1.2;
-            color: white;
-        }
-
-        .singInText:hover {
-            color: white;
-            text-decoration: none;
-        }
-
-        .iconBlueDark {
-            background-image: radial-gradient(#000, #08082b);
-            border: 2px solid #08082b;
-            border-radius: 10px;
-        }
-
-        .iconBlueDark h1 {
-            color: #242824;
-            font-weight: bold;
-            font-size: 46px;
-            text-shadow: 0px 0px 3px #242824;
-        }
-
-        .iconSmall {
-            width: 80px;
-            height: 80px;
-        }
-
-        .iconBig {
-            width: 110px;
-            height: 110px;
-        }
-
-        .modulos {
-            padding: 40px 0px;
-            box-sizing: border-box;
-        }
-
-        .dicas h4 {
-            font-size: 22px;
-            color: #242824;
-        }
-
-        .dicas p {
-            color: #bfbfbf;
-        }
-
-        .home p {
-            font-size: 26px;
-            margin-bottom: 15px;
-            text-align: center;
-            color: #000;
-        }
-
-        .container p {
-            font-size: 24px;
-            width: 640px;
-            color: #000;
-            padding: 0px 0px 0px 40px;
-        }
-
-        .center-col {
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .arrow {
-            height: 115px;
-        }
-
-        .fas {
-            font-size: 32px;
-            color: #242824;
-        }
-
-        .width400 {
-            width: 400px;
-        }
-
-        .width550 {
-            width: 550px;
-        }
-
-        .widthMaxContent {
-            width: max-content;
-        }
-
-        .bigTitle {
-            font-size: 72px;
-            color: #000;
-            padding: 40px;
-            letter-spacing: -5px;
-            line-height: 65px;
-        }
-
-        .noPadding {
-            padding: 0;
-        }
-
-        .margin {
-            margin-bottom: 60px;
-        }
-
-        .noMargin {
-            margin-right: 0;
-        }
-
-        .noAnyMargin {
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-
-        .borderPoint {
-            border-left: 3px dashed #242824;
-        }
-
-        .fontSizeBig {
-            font-size: 44px;
-        }
-
-        .bigTitle-white,
-        .titleBigBig {
-            font-size: 56px;
-            width: 718px;
-            text-align: center;
-            margin: auto;
-            letter-spacing: -4px;
-            line-height: 50px;
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
-
-        .bigTitle-white,
-        .white {
-            color: white;
-        }
-
-        .titleBigBig {
-            width: 458px;
-            margin-top: 20px;
-            margin-bottom: 0px;
-
-        }
-
-        .border-radius {
-            width: 600px;
-        }
-
-        .infoBox {
-            color: #dfdfdf;
-            padding: 20px;
-            box-sizing: border-box;
-            height: 100px;
-            border-bottom: 2px dashed #242824;
-        }
-
-        .infoBox-right {
-            color: #dfdfdf;
-            text-align: right;
-            border-right: 2px dashed #242824;
-        }
-
-        .infoBoxEnd {
-            color: #dfdfdf;
-            padding: 20px;
-            height: 100px;
-            margin-bottom: 40px;
-        }
-
-        .noAnyMargin {
-            margin-left: 0;
-            margin-right: 0;
-        }
-
-        .padding20 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .slideanim {
-            visibility: hidden;
-        }
-
-        .slide {
-            animation-name: slide;
-            -webkit-animation-name: slide;
-            animation-duration: 1s;
-            -webkit-animation-duration: 1s;
-            visibility: visible;
-        }
-
-        @keyframes slide {
-            0% {
-                opacity: 0;
-                transform: translateY(70%);
-            }
-
-            100% {
-                opacity: 1;
-                transform: translateY(0%);
-            }
-        }
-
-        @-webkit-keyframes slide {
-            0% {
-                opacity: 0;
-                -webkit-transform: translateY(70%);
-            }
-
-            100% {
-                opacity: 1;
-                -webkit-transform: translateY(0%);
-            }
-        }
-
-        @media screen and (max-width: 765px) {
-            h2 {
-                font-size: 30px;
-            }
-
-            .widthMaxContent,
-            .width550 {
-                width: auto;
-            }
-
-            .fontSizeMedium {
-                font-size: medium;
-            }
-
-            .fontSizeBig {
-                font-size: 35px;
-            }
-
-            .fontSize18 {
-                font-size: 18px;
-            }
-
-            .fontSize14 {
-                font-size: 14px;
-            }
-
-            .borderPoint {
-                border: none;
-                margin-left: -15px;
-            }
-
-            .row {
-                margin: 0;
-            }
-
-            .dicas {
-                text-align: center;
-            }
-
-            .col-sm-1 {
-                display: none;
-            }
-
-            .col-sm-3.center-col {
-                padding-left: 0;
-            }
-
-            .home p {
-                font-size: 20px;
-                margin: 15px;
-            }
-
-            .container p {
-                width: 100%;
-                font-size: 20px;
-                margin-bottom: 30px;
-            }
-
-            .width100 {
-                width: 100%;
-            }
-
-            .height150 {
-                height: 150px;
-            }
-
-            .center-col {
-                margin-bottom: 30px;
-            }
-
-            .singIn {
-                font-size: 14px;
-            }
-
-            .singInText {
-                font-size: 16px;
-            }
-
-            .bigTitle,
-            .titleBigBig {
-                font-size: 48px;
-                padding-left: 0;
-                padding-right: 0;
-                text-align: center;
-                font-weight: 100;
-            }
-
-            .bigTitle {
-                line-height: 45px;
-            }
-
-            .bigTitle-white {
-                font-size: 48px;
-                width: 100%;
-                text-align: center;
-                letter-spacing: -2px;
-            }
-
-            .white {
-                font-size: 25px;
-            }
-
-            .infoBox,
-            .infoBoxEnd {
-                text-align: center;
-            }
-
-            .infoBox-right {
-                border-right: 0;
-            }
-
-            .borderCell {
-                border-bottom: 2px dashed #242824;
-            }
-
-            .marginBottom {
-                margin-top: 20px;
-                margin-bottom: 30px;
-            }
-
-            .depoimentos {
-                width: 100%;
-                margin-bottom: 10px;
-            }
-
-            .border-radius {
-                width: 100%;
-                border-radius: 48px;
-            }
-        }
-
-        @media screen and (max-width: 360px) {
-            .singIn {
-                font-size: 12px;
-            }
-        }
-
-        .modulos {
-            text-align: center;
-            text-transform: uppercase;
-        }
-
-        .modulos>h2 {
-            color: #FFF;
-        }
-
-        .modulos>h4 {
-            color: #FFF;
-        }
-
-        .btn-small {
-            font-weight: initial;
-            font-size: 19px;
-        }
-    </style>
-
+      <link href="css/main.css" rel="stylesheet" type="text/css">
+    
+    
+    
+      <script>
+        $(document).ready(function() {
+
+            $('.collapse').collapse();
+
+            $(window).scroll(function() {
+                $(".slideanim").each(function() {
+                    var pos = $(this).offset().top;
+
+                    var winTop = $(window).scrollTop();
+                    if (pos < winTop + 600) {
+                        $(this).addClass("slide");
+                    } else {
+                        $(this).removeClass("slide");
+                    }
+                });
+            });
+        })
+    </script>
+    
     <!-- Facebook Pixel Code -->
     <script>
         ! function(f, b, e, v, n, t, s) {
@@ -523,6 +92,8 @@
         fbq('init', '2212164565758316');
         fbq('track', 'PageView');
     </script>
+   
+    
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2212164565758316&amp;ev=PageView&amp;noscript=1" /></noscript>
     <!-- End Facebook Pixel Code -->
 
@@ -891,22 +462,6 @@
 
     </div>
 
-    <style>
-        .card-header {
-            text-align: center;
-        }
-
-        .card-header>h4>button {
-            color: #818181 !important;
-            font-size: 20px;
-        }
-
-        .card-header>h4>button>i {
-            color: #818181 !important;
-            font-size: 20px;
-        }
-    </style>
-
     <div class="container-fluid padding text-center">
         <h1 class="bigTitle width100 slideanim" style="text-align: center;"><b>PRINCIPAIS</b> <i>DÚVIDAS</i></h1>
 
@@ -1059,101 +614,12 @@
 
     </div>
 
-    <script>
-        $(document).ready(function() {
-
-            $('.collapse').collapse();
-
-            $(window).scroll(function() {
-                $(".slideanim").each(function() {
-                    var pos = $(this).offset().top;
-
-                    var winTop = $(window).scrollTop();
-                    if (pos < winTop + 600) {
-                        $(this).addClass("slide");
-                    } else {
-                        $(this).removeClass("slide");
-                    }
-                });
-            });
-        })
-    </script>
+  
 
 
-    <!-- <script src="assets/InstagramFeed.min.js"></script> -->
-    <script>
-        <!-- (function() { 
-        -->
-    <!-- new InstagramFeed({ -->
-    <!-- 'username': 'viniciusbinti', -->
-    <!-- 'container': document.getElementById("instagram-feed1"), -->
-    <!-- 'display_profile': true, -->
-    <!-- 'display_biography': true, -->
-    <!-- 'display_gallery': true, -->
-    <!-- 'callback': null, -->
-    <!-- 'styling': true, -->
-    <!-- 'items': 8, -->
-    <!-- 'items_per_row': 4, -->
-    <!-- 'margin': 1 -->
-    <!-- }); -->
-    <!-- })(); -->
-    (function($) {
-    // Show back to top button if distance from top > 0
-    $(window).scroll(function() {
-    var viewportTop = $(window).scrollTop() + $(window).height();
 
-    if ($(window).scrollTop() > 10) {
-    $('#btn-top').addClass('d-block');
-    $('#btn-top').removeClass('d-none');
-    } else {
-    $('#btn-top').addClass('d-none');
-    $('#btn-top').removeClass('d-block');
-    }
-    });
-    })(jQuery);
-    </script>
+    
 
-    </div>
-
-
-    <style>
-        section {
-            background: #000000;
-        }
-
-        section>h4 {}
-
-        .redes {}
-
-        .redes>ul {
-            padding-left: 0px;
-        }
-
-        .redes>ul>a {}
-
-        .redes>ul>a>li {
-            display: inline-block;
-            margin-left: 5px;
-            margin-right: 5px;
-            font-size: 25px;
-            color: #FFF;
-        }
-
-        .redes>ul>a>li:hover {
-            opacity: 0.5;
-            cursor: pointer;
-        }
-
-        footer {
-            background: #25282b;
-        }
-
-        footer>h5,
-        span,
-        a {
-            color: #FFF;
-        }
-    </style>
 
     <section class="pt-5 pb-3 text-center">
         <h4>Minhas Redes Sociais</h4>
@@ -1179,11 +645,12 @@
     </footer>
 
 
+
 </body>
 
-<script src="../code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="../cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="../stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="js/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="js/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 
 
